@@ -18,3 +18,6 @@ puts arr
 arr.pop
 arr.push(3)
 
+#6
+arr.uniq!
+puts arr
