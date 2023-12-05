@@ -9,4 +9,10 @@ arr.each { |n| puts n if n > 5 }
 new_arr = arr.select { |n| n % 2 != 0 }
 puts new_arr
 
+#4
+arr.push(11)
+arr.unshift(0)
+puts arr
+
+
 
