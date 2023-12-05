@@ -14,5 +14,7 @@ arr.push(11)
 arr.unshift(0)
 puts arr
 
-
+#5
+arr.pop
+arr.push(3)
 
