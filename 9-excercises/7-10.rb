@@ -13,3 +13,9 @@ puts h[:b]
 h[:e] = 5
 #3
 h.delete_if { |k, v| v < 3.5 }
+
+#10
+hash_w_arr_val = {numbers: [1, 2, 3, 4, 5], letters: ["a", "b", "c", "d", "e", "f"]}
+arr_w_hash_val = [{name: "bob"}, {age: "50"}]
+
+
